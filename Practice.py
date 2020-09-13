@@ -6,8 +6,6 @@ post_to_boxes = {11111: [(10, 20, 15, 25)],
 }
 
 
-
-
 empty_keys=[]
 small_keys=[]
 
@@ -68,11 +66,3 @@ result = process_hero_box_annotations(post_to_boxes)
        
 
 
- # x0= min((a[key][0][0]),(a[key][1][0]))
- # y0= min((a[key][0][1]),(a[key][1][1]))
- # x1= max((a[key][0][2]),(a[key][1][2]))
- # y1= max((a[key][0][3]),(a[key][1][3]))
-#print(key, '->', a[key])
-        
-        # if len(a[key]) == 1:
-        # firstkey= key
